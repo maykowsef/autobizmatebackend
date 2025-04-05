@@ -1,20 +1,17 @@
 {
-  "name": "back",
+  "name": "my-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "install-deps": "npm install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maykowsef/autobizmatebackend.git"
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2",
+    "cors": "^2.8.5"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maykowsef/autobizmatebackend/issues"
-  },
-  "homepage": "https://github.com/maykowsef/autobizmatebackend#readme"
+  "engines": {
+    "node": "18.x"
+  }
 }
